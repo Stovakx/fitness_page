@@ -1,0 +1,260 @@
+{
+  "programs": [
+    {
+      "id": 1,
+      "img": "../images/programs/programImage1",
+      "title": "Programs One",
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam!",
+      "path": "/programs/111"
+    },
+    {
+      "id": 2,
+      "img": "../images/programs/programImage2",
+      "title": "Programs Two",
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam!",
+      "path": "/programs/112"
+    },
+    {
+      "id": 3,
+      "img": "../images/programs/programImage3",
+      "title": "Programs Three",
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam!",
+      "path": "/programs/113"
+    },
+    {
+      "id": 4,
+      "img": "../images/programs/programImage4",
+      "title": "Programs Foure",
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam!",
+      "path": "/programs/114"
+    }
+  ],
+
+  "values": [
+    {
+      "id": 1,
+      "img": "../images/value/valueImage1",
+      "title": "Value One",
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam!"
+    },
+    {
+      "id": 2,
+      "img": "../images/value/valueImage2",
+      "title": "Value Two",
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam!"
+    },
+    {
+      "id": 3,
+      "img": "../images/value/valueImage3",
+      "title": "Value Three",
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam!"
+    }
+  ],
+
+  "faqs": [
+    {
+      "id": 1,
+      "que": "How opten should i exercise?",
+      "ans": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam!"
+    },
+    {
+      "id": 2,
+      "que": "How opten should i exercise?",
+      "ans": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam!"
+    },
+    {
+      "id": 3,
+      "que": "How opten should i exercise?",
+      "ans": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam!"
+    },
+    {
+      "id": 4,
+      "que": "How opten should i exercise?",
+      "ans": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam!"
+    },
+    {
+      "id": 5,
+      "que": "How opten should i exercise?",
+      "ans": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam!"
+    },
+    {
+      "id": 6,
+      "que": "How opten should i exercise?",
+      "ans": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam!"
+    }
+  ],
+
+  "testimonials": [
+    {
+      "id": 1,
+      "img": "../images/testimonial/testimonialImage1",
+      "name": "Anna Lia",
+      "quote": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam! Lorem ipsum dolor sit, amet consectetur Ipsa, laboriosam!",
+      "job": "Student"
+    },
+    {
+      "id": 2,
+      "img": "../images/testimonial/testimonialImage2",
+      "name": "Habib Akram",
+      "quote": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam! Lorem ipsum dolor sit, amet consectetur Ipsa, laboriosam!",
+      "job": "Student"
+    },
+    {
+      "id": 3,
+      "img": "../images/testimonial/testimonialImage3",
+      "name": "Adriana Ava",
+      "quote": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam! Lorem ipsum dolor sit, amet consectetur Ipsa, laboriosam!",
+      "job": "Student"
+    },
+    {
+      "id": 4,
+      "img": "../images/testimonial/testimonialImage4",
+      "name": "Abraham Linkon",
+      "quote": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam! Lorem ipsum dolor sit, amet consectetur Ipsa, laboriosam!",
+      "job": "Student"
+    },
+    {
+      "id": 5,
+      "img": "../images/testimonial/testimonialImage5",
+      "name": "Tasnia Farin",
+      "quote": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam! Lorem ipsum dolor sit, amet consectetur Ipsa, laboriosam!",
+      "job": "Student"
+    },
+    {
+      "id": 6,
+      "img": "../images/testimonial/testimonialImage6",
+      "name": "Jhon Doe",
+      "quote": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, laboriosam! Lorem ipsum dolor sit, amet consectetur Ipsa, laboriosam!",
+      "job": "Student"
+    }
+  ],
+
+  "gallery": [
+    {
+      "id": 1,
+      "img": "../images/gallery/galleryImage1"
+    },
+    {
+      "id": 2,
+      "img": "../images/gallery/galleryImage2"
+    },
+    {
+      "id": 3,
+      "img": "../images/gallery/galleryImage3"
+    },
+    {
+      "id": 4,
+      "img": "../images/gallery/galleryImage4"
+    },
+    {
+      "id": 5,
+      "img": "../images/gallery/galleryImage5"
+    },
+    {
+      "id": 6,
+      "img": "../images/gallery/galleryImage6"
+    },
+    {
+      "id": 7,
+      "img": "../images/gallery/galleryImage7"
+    },
+    {
+      "id": 8,
+      "img": "../images/gallery/galleryImage8"
+    }
+  ],
+
+  "plans": [
+    {
+      "id": 1,
+      "name": "Basic",
+      "des": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quaerat!",
+      "price": "10.99",
+      "services": [
+        { "feature": "You Feature 2", "available": true },
+        { "feature": "You Feature 2", "available": true },
+        { "feature": "You Feature 2", "available": true },
+        { "feature": "You Feature 2", "available": true },
+        { "feature": "You Feature 2", "available": false },
+        { "feature": "You Feature 2", "available": false },
+        { "feature": "You Feature 2", "available": false }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Gold",
+      "des": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quaerat!",
+      "price": "60.99",
+      "services": [
+        { "feature": "You Feature 3", "available": true },
+        { "feature": "You Feature 3", "available": true },
+        { "feature": "You Feature 3", "available": true },
+        { "feature": "You Feature 3", "available": true },
+        { "feature": "You Feature 3", "available": true },
+        { "feature": "You Feature 3", "available": true },
+        { "feature": "You Feature 3", "available": true },
+        { "feature": "You Feature 3", "available": true }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Basic",
+      "des": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quaerat!",
+      "price": "20.99",
+      "services": [
+        { "feature": "You Feature 1", "available": true },
+        { "feature": "You Feature 1", "available": true },
+        { "feature": "You Feature 1", "available": true },
+        { "feature": "You Feature 1", "available": false },
+        { "feature": "You Feature 1", "available": true },
+        { "feature": "You Feature 1", "available": false },
+        { "feature": "You Feature 1", "available": true }
+      ]
+    }
+  ],
+
+  "traines": [
+    {
+      "id": 1,
+      "name": "Mr Been",
+      "img": "../images/trainers/trainersImage1",
+      "job": "Trainer",
+      "Email": "example@email.com"
+    },
+    {
+      "id": 2,
+      "name": "Mr Been",
+      "img": "../images/trainers/trainersImage2",
+      "job": "Trainer",
+      "Email": "example@email.com"
+    },
+    {
+      "id": 3,
+      "name": "Mr Been",
+      "img": "../images/trainers/trainersImage3",
+      "job": "Trainer",
+      "Email": "example@email.com"
+    },
+    {
+      "id": 4,
+      "name": "Mr Been",
+      "img": "../images/trainers/trainersImage4",
+      "job": "Trainer",
+      "Email": "example@email.com"
+    },
+    {
+      "id": 5,
+      "name": "Mr Been",
+      "img": "../images/trainers/trainersImage5",
+      "job": "Trainer",
+      "Email": "example@email.com"
+    },
+    {
+      "id": 6,
+      "name": "Mr Been",
+      "img": "../images/trainers/trainersImage6",
+      "job": "Trainer",
+      "Email": "example@email.com"
+    }
+  ]
+}
