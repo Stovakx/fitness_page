@@ -1,0 +1,36 @@
+.aboutContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  align-items: center;
+}
+
+.aboutContainer h2 {
+  margin-bottom: 1rem;
+}
+
+.aboutImg {
+  padding: 1rem 1rem 0 1rem;
+  background: var(--colorBg2);
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+  .aboutContainer {
+    padding-top: 2rem;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .aboutContainer {
+    
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .secondImg {
+    grid-row: 1;
+  }
+}

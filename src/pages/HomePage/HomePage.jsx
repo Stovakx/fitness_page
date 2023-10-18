@@ -1,5 +1,5 @@
 import Faqs from "../../components/Faqs/Faqs";
-import Header from "../../components/Header/Header";
+import HeadingText from "../../components/HeadingText/HeadingText";
 import Programs from "../../components/Programs/Programs";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import Values from "../../components/Values/Values";
@@ -8,7 +8,7 @@ import "./homepage.css";
 export default function HomePage() {
   return (
     <>
-      <Header/>
+      <HeadingText/>
       <Programs/>
       <Values/>
       <Faqs/>

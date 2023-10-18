@@ -1,0 +1,51 @@
+.plansContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.plansCard {
+  height: fit-content;
+}
+
+.plansCard h3{
+    margin-bottom: 1rem;
+}
+
+.plansCard p{
+    margin-bottom: .5rem;
+}
+
+.planCardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-bottom: 1.4rem;
+}
+
+.planCardBody h1 {
+  color: var(--colorPrimary);
+   
+}
+
+.planCardBody span{
+    color: var(--colorLight);
+    font-size: 1.8rem;
+}
+
+.disable {
+    color: var(--colorPrimary);
+    text-decoration: line-through;
+}
+
+@media (max-width:1024px) {
+    .plansContainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .plansContainer{
+        grid-template-columns: 1fr;
+    }
+}

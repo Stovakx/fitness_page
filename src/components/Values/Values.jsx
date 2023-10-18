@@ -2,7 +2,7 @@ import "./values.css";
 import fetchData from "../../utils/axios";
 import { useEffect, useState } from "react";
 import ValueHeroImage from "../../assets/value.png";
-import HeadingText from "../HeadingText/HeadingText";
+import HeadingText from "../HeadText/HeadText";
 import { FaLayerGroup } from "react-icons/fa6";
 import Card from "../Card/Card";
 

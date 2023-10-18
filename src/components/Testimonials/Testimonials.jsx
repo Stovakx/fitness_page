@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import HeadingText from "../HeadingText/HeadingText";
+import HeadingText from "../HeadText/HeadText";
 import { FaHeartCircleBolt } from "react-icons/fa6";
 import Card from "../Card/Card";
 
@@ -45,7 +45,7 @@ export default function Testimonials() {
             testimonials.map(({ id, img, job, name, quote }) => (
               <SwiperSlide key={id}>
                 <Card className={"testimonial"}>
-                  <div className="">
+                  <div>
                     <img src={img} className="testimonialImg" />
                   </div>
                   <h3>{name}</h3>

@@ -1,0 +1,40 @@
+.trainersContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+
+.trainerImgDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.trainerImg{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 2px solid var(--colorPrimary);
+}
+
+
+.emailDiv{
+    display: flex;
+    gap: .7rem;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:1024px){
+    .trainersContainer{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:600px){
+    .trainersContainer{
+        grid-template-columns: 1fr;
+    }
+}

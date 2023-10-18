@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./programs.css";
 import { Link } from "react-router-dom";
-import HeadingText from "../HeadingText/HeadingText";
+import HeadingText from "../HeadText/HeadText";
 import Card from "../Card/Card";
 import fetchData from "../../utils/axios";
 import { FaCrown } from "react-icons/fa6";

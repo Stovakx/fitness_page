@@ -2,7 +2,7 @@ import "./faqs.css";
 import { useState, useEffect } from "react";
 import Faq from "./Faq";
 import fetchData from "../../utils/axios";
-import HeadingText from "../HeadingText/HeadingText";
+import HeadText from "../HeadText/HeadText";
 import { FaQuestion } from "react-icons/fa6";
 export default function Faqs() {
   const [faqs, setFaqs] = useState([]);
@@ -22,7 +22,7 @@ export default function Faqs() {
   return (
     <section className="faqs">
       <div className="container faqsContainer">
-        <HeadingText
+        <HeadText
           icon={<FaQuestion />}
           title={"faqs"}
           className={"faqsHeading"}

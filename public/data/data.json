@@ -132,35 +132,35 @@
   "gallery": [
     {
       "id": 1,
-      "img": "../images/gallery/gallery1"
+      "img": "../images/gallery/gallery1.jpg"
     },
     {
       "id": 2,
-      "img": "../images/gallery/gallery2"
+      "img": "../images/gallery/gallery2.jpg"
     },
     {
       "id": 3,
-      "img": "../images/gallery/gallery3"
+      "img": "../images/gallery/gallery3.jpg"
     },
     {
       "id": 4,
-      "img": "../images/gallery/gallery4"
+      "img": "../images/gallery/gallery4.jpg"
     },
     {
       "id": 5,
-      "img": "../images/gallery/gallery5"
+      "img": "../images/gallery/gallery5.jpg"
     },
     {
       "id": 6,
-      "img": "../images/gallery/gallery6"
+      "img": "../images/gallery/gallery6.jpg"
     },
     {
       "id": 7,
-      "img": "../images/gallery/gallery7"
+      "img": "../images/gallery/gallery7.jpg"
     },
     {
       "id": 8,
-      "img": "../images/gallery/gallery8"
+      "img": "../images/gallery/gallery8.jpg"
     }
   ],
 
@@ -182,6 +182,22 @@
     },
     {
       "id": 2,
+      "name": "Silver",
+      "des": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quaerat!",
+      "price": "20.99",
+      "services": [
+        { "feature": "You Feature 1", "available": true },
+        { "feature": "You Feature 1", "available": false },
+        { "feature": "You Feature 1", "available": false },
+        { "feature": "You Feature 1", "available": true },
+        { "feature": "You Feature 1", "available": true },
+        { "feature": "You Feature 1", "available": true },
+        { "feature": "You Feature 1", "available": true }
+      
+      ]
+    },
+    {
+      "id": 3,
       "name": "Gold",
       "des": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quaerat!",
       "price": "60.99",
@@ -195,21 +211,6 @@
         { "feature": "You Feature 3", "available": true },
         { "feature": "You Feature 3", "available": true }
       ]
-    },
-    {
-      "id": 3,
-      "name": "Basic",
-      "des": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quaerat!",
-      "price": "20.99",
-      "services": [
-        { "feature": "You Feature 1", "available": true },
-        { "feature": "You Feature 1", "available": true },
-        { "feature": "You Feature 1", "available": true },
-        { "feature": "You Feature 1", "available": false },
-        { "feature": "You Feature 1", "available": true },
-        { "feature": "You Feature 1", "available": false },
-        { "feature": "You Feature 1", "available": true }
-      ]
     }
   ],
 
@@ -217,44 +218,44 @@
     {
       "id": 1,
       "name": "Mr Been",
-      "img": "../images/trainers/trainer1",
+      "img": "../images/trainers/trainer1.jpg",
       "job": "Trainer",
-      "Email": "example@email.com"
+      "email": "example@email.com"
     },
     {
       "id": 2,
       "name": "Mr Been",
-      "img": "../images/trainers/trainer2",
+      "img": "../images/trainers/trainer2.jpg",
       "job": "Trainer",
-      "Email": "example@email.com"
+      "email": "example@email.com"
     },
     {
       "id": 3,
       "name": "Mr Been",
-      "img": "../images/trainers/trainer3",
+      "img": "../images/trainers/trainer3.jpg",
       "job": "Trainer",
-      "Email": "example@email.com"
+      "email": "example@email.com"
     },
     {
       "id": 4,
       "name": "Mr Been",
-      "img": "../images/trainers/trainer4",
+      "img": "../images/trainers/trainer4.jpg",
       "job": "Trainer",
-      "Email": "example@email.com"
+      "email": "example@email.com"
     },
     {
       "id": 5,
       "name": "Mr Been",
-      "img": "../images/trainers/trainer5",
+      "img": "../images/trainers/trainer5.jpg",
       "job": "Trainer",
-      "Email": "example@email.com"
+      "email": "example@email.com"
     },
     {
       "id": 6,
       "name": "Mr Been",
-      "img": "../images/trainers/trainer6",
+      "img": "../images/trainers/trainer6.jpg",
       "job": "Trainer",
-      "Email": "example@email.com"
+      "email": "example@email.com"
     }
   ]
 }

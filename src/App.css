@@ -70,6 +70,7 @@ img {
 
 .btn {
   display: inline-block;
+  text-align: center;
   width: fit-content;
   margin: 0;
   font-weight: 500;
