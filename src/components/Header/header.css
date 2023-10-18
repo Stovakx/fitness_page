@@ -1,0 +1,115 @@
+.mainHeader {
+  display: grid;
+  place-items: center;
+  margin-top: 4.6rem;
+  height: calc(100vh- 41.6rem);
+  width: 100%;
+  overflow: hidden;
+}
+
+.mainHeader::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(70deg, var(--colorPrimary), transparent);
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  left: 0;
+  top: 5rem;
+  filter: blur(5px);
+  z-index: -1;
+}
+
+.mainHeader::after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(70deg, var(--colorPrimary), transparent);
+  height: 5.5rem;
+  width: 5.5rem;
+  border-radius: 50%;
+  left: 20rem;
+  bottom: 5rem;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+.mainHeaderContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainHeaderLeft {
+  margin-top: 3rem;
+}
+
+.mainHeaderLeft h4 {
+  color: var(--colorPrimary);
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.mainHeaderLeft p {
+  margin: 1rem 0 3rem;
+}
+
+.mainHeaderRight {
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.mainHeaderCircle {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  background: linear-gradient(75deg, var(--colorPrimary), transparent);
+  position: absolute;
+  filter: blur(16px);
+}
+
+.mainHeaderRight img {
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .mainHeader {
+    height: fit-content;
+    padding: 8rem 0;
+  }
+
+  .mainHeaderContainer {
+    gap: 0;
+  }
+
+  .mainHeaderCircle {
+    width: 16rem;
+    height: 16rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .mainHeader {
+    padding: 10rem 0 0;
+  }
+
+  .mainHeader::after {
+    right: 0;
+    bottom: 0;
+    left: 12rem;
+  }
+
+  .mainHeaderContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .mainHeaderRight {
+    grid-row: 1;
+  }
+
+  .mainHeaderLeft {
+    margin-top: 1rem;
+  }
+}

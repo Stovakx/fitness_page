@@ -1,0 +1,33 @@
+.testimonialsContainer{
+    width: 50% !important ;
+}
+
+.testimonialImg{
+    width: 3.4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    margin: 1rem auto;
+    border-radius: 50%;
+    margin-top: 0;
+    border: 3px solid var(--colorWhite);
+}
+
+.testimonial{
+    padding: 2.25rem;
+}
+
+.testimonial p {
+    margin-bottom: .7rem;
+}
+
+@media (max-width:1024px){
+    .testimonialsContainer{
+        width: 80% !important;
+    }
+}
+
+@media (max-width:600px){
+    .testimonialsContainer{
+        width: 90% !important;
+    }
+}

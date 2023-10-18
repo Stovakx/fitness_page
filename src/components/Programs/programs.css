@@ -1,0 +1,32 @@
+.programsCard {
+  background: var(--colorBg3);
+}
+
+.programsWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.programsCard img {
+  margin: 1.5rem auto;
+  margin-top: 0;
+  width: 2.6rem;
+}
+
+.programsCard small {
+  display: block;
+  margin: 0.7rem auto;
+  font-weight: 300;
+}
+
+@media (max-width: 1024px) {
+  .programsWrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .programsWrapper {
+    grid-template-columns: 1fr;
+  }
+}

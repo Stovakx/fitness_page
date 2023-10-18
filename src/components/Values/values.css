@@ -1,0 +1,40 @@
+.valuesContainer{
+    display: grid;
+    grid-template-columns: 40% auto;
+    gap: 6rem;
+    align-items: center;
+}
+
+.valuesWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.valuesCard img{
+    width: 2.6rem;
+    margin:auto;
+    margin-top: -4.6rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width:1024px){
+    .valuesContainer{
+        grid-template-columns: 1fr;
+    }
+    .valuesLeft{
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media (max-width:600px){
+    .valuesLeft{
+        width: 100%;
+        margin-top: -6rem;
+    }
+
+    .valuesWrapper{
+        grid-template-columns: 1fr;
+    }
+}

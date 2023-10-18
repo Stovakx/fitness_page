@@ -1,0 +1,15 @@
+.headingText{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 4rem;
+}
+
+.headingText span{
+    padding: .8rem;
+    background: var(--colorBg2);
+    display: flex;
+    border-radius: .5rem;
+    color: var(--colorPrimary);
+    font-size: 1.2rem;
+}
